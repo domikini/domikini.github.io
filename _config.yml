@@ -14,15 +14,15 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-email: your-email@example.com
+email: domikini@gmail.com
 
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: domikini
+github_username:  domikini
 
 # Build settings
 markdown: kramdown
@@ -33,12 +33,12 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
 
-title: Hacker-Blog
-description: "A Jekyll Blog Theme For Hackers"
+title: domikini-dev-blog
+description: "Domikini Github Developer Blog"
 author:
-  name: "SomeHacker"
-  email: "someone@somewebsite.somedomain"
-  url: "https://ashishchaudhary.in/hacker-blog"
+  name: "domikini"
+  email: "domikini@gmail.com"
+  url: "https://domikini.github.io"
 
 baseurl: /
 
@@ -59,6 +59,6 @@ defaults:
 future: true
 
 # Custom variables
-owner : "SomeHacker"
-year : "2018"
+owner : "Dominic Chan"
+year : "2019"
 
