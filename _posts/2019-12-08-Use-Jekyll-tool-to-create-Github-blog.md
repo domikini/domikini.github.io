@@ -46,7 +46,7 @@ This website was created with Jekyll tool and hosted on Github repository. You c
    bundle install
    ```
    
-10. Serve the SitePermalink. Your new website is ready! You can serve the website with bundle exec jekyll serve and visit it at http://127.0.0.1:4000. From here, you’re ready to continue developing the site on your own. All of the normal Jekyll commands are available to you, but you should prefix them with bundle exec so that Bundler runs the version of Jekyll that is installed in your project folder.
+10. Serve the SitePermalink. Your new website is ready! You can serve the website with `bundle exec jekyll serve` and visit it at http://127.0.0.1:4000. From here, you’re ready to continue developing the site on your own. All of the normal Jekyll commands are available to you, but you should prefix them with bundle exec so that Bundler runs the version of Jekyll that is installed in your project folder.
 
 11. Commit to Source ControlPermalink. If you’re storing your new site in version control, you’ll want to ignore the ./vendor/ and ./.bundle/ folders since they contain user- or platform-specific information. New users will be able to install the correct dependencies based on Gemfile and Gemfile.lock, which should both be checked in. You can use this .gitignore to get started, if you want.
     
