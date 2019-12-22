@@ -1,5 +1,3 @@
-# Custom domains with dnsmasq
-
 ## About
 
 With dnsmasq you are able to create custom domains within your network or route existing domains to different ip's. It's very handy when you want to create  _home_  web which will have web links to your NAS storage, printer and other clever things within your household. This can be also used to block access to domains by routing them to different ip address, so you can block advertising within some applications.

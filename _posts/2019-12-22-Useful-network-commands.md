@@ -1,5 +1,3 @@
-# Useful network commands
-
 ## Network scanner
 Scans subnet 192.168.1.0
 * `sudo nmap -sP 192.168.1.0/24`
