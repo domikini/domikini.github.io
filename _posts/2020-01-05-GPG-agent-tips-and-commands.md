@@ -3,4 +3,7 @@
  Stop GPG-agent
  `gpgconf --kill gpg-agent`
  
+ Restart GPG-agent
+ `gpg-connect-agent reloadagent /bye`
+ 
  
