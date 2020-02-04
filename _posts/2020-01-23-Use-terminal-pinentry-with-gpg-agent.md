@@ -5,4 +5,4 @@ In order to use terminal to input pin for gpg-agent. Add the following to the .g
       3 max-cache-ttl 120
       4 pinentry-program /usr/bin/pinentry-curses
       
-Restart gpg-agent with the command: `gpg-connect-agent updatestartuptty /bye`
+Restart gpg-agent with the command: `gpg-connect-agent updatestartuptty /bye` and `gpg-connect-agent reloadagent /bye`
