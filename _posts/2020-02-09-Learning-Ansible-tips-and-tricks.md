@@ -20,3 +20,16 @@ To read playbook YAML file using Python, use command similar to:
    
 -  Example: YAML Lint website: http://yamllint.com/
 
+## Syntax-check
+- Ansible offers native feature for validating playbook YAML syntax
+
+- Use --syntax-check option with ansible-playbook command to check for syntax errors
+
+- --syntax-check method:
+
+- Conducts more rigorous review
+
+- Ensures data elements specific to playbooks are not missing
+
+- Recommended for verifying playbook YAML syntax
+
