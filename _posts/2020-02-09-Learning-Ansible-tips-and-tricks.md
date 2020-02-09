@@ -11,3 +11,12 @@
 To read playbook YAML file using Python, use command similar to:
 
 `python -c 'import yaml, sys; print yaml.load(sys.stdin)' < myyaml.yml`
+
+
+## YAML Lint
+-  Online YAML syntax verification tools available
+   
+-  Useful for administrators not familiar with Python
+   
+-  Example: YAML Lint website: http://yamllint.com/
+
