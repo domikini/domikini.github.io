@@ -23,3 +23,5 @@
 12. `vim ~/.docker/config.json`. Set in root node the next line "credsStore": "pass" save ctrl+o.
 
 13. after docker login and etc.
+
+14. export GPG_TTY=$(tty)
