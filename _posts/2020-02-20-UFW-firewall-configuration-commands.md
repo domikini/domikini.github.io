@@ -6,4 +6,4 @@
 
 # To drop ICMP ping on forwarding and signal in
 Edit /etc/ufw/before.rules
-Change ACCEPT to DROP on the sections "ok icmp code for INPUT" and "ok icmp code for FORWARD"
+Change ACCEPT to DROP on the sections "ok icmp code for INPUT" ok icmp code for FORWARD"
