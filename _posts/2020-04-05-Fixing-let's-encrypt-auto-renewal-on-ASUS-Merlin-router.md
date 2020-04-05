@@ -1,3 +1,5 @@
+## Reference: https://www.snbforums.com/threads/asus-letsencrypt-workaround-if-yours-is-broken.61965/
+
 For those of you having issues renewing certs using the built-in Let's Encrypt functionality (because MOST ISP's block Port 80, therefore you will not be able to create or renew your SSL cert via the built-in ASUSWRT feature for Let's Encrypt), there is a basic/simple workaround that does not involve the use of TLS -APLN-01 challenge.
 
 In your router's System Log, when you attempt to create or renew a Let's Encrypt certificate, blocked port 80 will cause the following error message to show up:
