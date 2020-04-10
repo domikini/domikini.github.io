@@ -12,13 +12,9 @@
 
 7. gpg --generate-key. Enter your name, mail, etc. You will get gpg-id like "5BB54DF1XXXXXXXXF87XXXXXXXXXXXXXX945A". Copy it to clipboard. To show GPG key id: `gpg --list-secret-keys --keyid-format LONG`
 
-    If entropy is needed. Install rng-tools in Ubuntu or rng-utils in Fedora.
+    If entropy is needed. Run command `sudo dd if=/dev/sda of=/dev/zero`
     
-    Edit /etc/default/rng-tools and add the line HRNGDEVICE=/dev/urandom.
-    
-    Now, start the rng-tools daemon: /etc/init.d/rng-tools start
-    
-    If it still doesn't create enough entropy, use command e.g. `find / > /dev/null`
+    Or install the program haveged `sudo apt install haveged`
 
 8. `pass init (paste from clipboard)`
 
