@@ -17,6 +17,8 @@
     Edit /etc/default/rng-tools and add the line HRNGDEVICE=/dev/urandom.
     
     Now, start the rng-tools daemon: /etc/init.d/rng-tools start
+    
+    If it still doesn't create enough entropy, use command e.g. `find / > /dev/null`
 
 8. `pass init (paste from clipboard)`
 
