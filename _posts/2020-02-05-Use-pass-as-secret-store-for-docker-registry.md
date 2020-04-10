@@ -28,4 +28,16 @@
 
 13. after docker login and etc.
 
-14. export GPG_TTY=$(tty)
+14. Run `export GPG_TTY=$(tty)`
+
+15. Add the lines in .bashrc or .zshrc
+    ```
+    export GPG_TTY=`tty`
+    gpg-connect-agent updatestartuptty /bye
+    gpg-connect-agent reloadagent /bye
+    clear    
+    ``` 
+
+
+
+
