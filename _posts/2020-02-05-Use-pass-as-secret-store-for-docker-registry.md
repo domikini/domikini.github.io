@@ -12,6 +12,8 @@
 
 7. gpg --generate-key. Enter your name, mail, etc. You will get gpg-id like "5BB54DF1XXXXXXXXF87XXXXXXXXXXXXXX945A". Copy it to clipboard. To show GPG key id: `gpg --list-secret-keys --keyid-format LONG`
 
+If entropy is needed. Install rng-tools in Ubuntu or rng-utils in Fedora.
+
 8. `pass init (paste from clipboard)`
 
 9. `pass insert docker-credential-helpers/docker-pass-initialized-check` and set the next password "pass is initialized" (without quotes).
