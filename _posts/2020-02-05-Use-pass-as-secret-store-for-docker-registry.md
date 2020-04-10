@@ -12,7 +12,7 @@
 
 7. gpg --generate-key. Enter your name, mail, etc. You will get gpg-id like "5BB54DF1XXXXXXXXF87XXXXXXXXXXXXXX945A". Copy it to clipboard. To show GPG key id: `gpg --list-secret-keys --keyid-format LONG`
 
-    If entropy is needed. Install rng-tools in Ubuntu or rng-utils in Fedora.
+    If entropy is needed. Install rng-tools in Ubuntu or rng-utils in Fedora. Run with the command `sudo rngd -r /dev/urandom`
 
 8. `pass init (paste from clipboard)`
 
