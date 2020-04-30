@@ -10,7 +10,7 @@
    
    `chmod a+x certbot-auto`
    
-   `sudo mv certbot-auto /usr/local/bin`
+   `sudo mv certbot-auto /usr/local/bin/certbot`
 
 
 ## Install certbot plugin for Loopia
