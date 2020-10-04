@@ -1,7 +1,7 @@
 ## Install pip for Python 3
 * `sudo apt install python3-pip`
 
-## Install certbot
+### Install certbot
 * `sudo apt install certbot`
 
     or if it is in Fedora based systems
@@ -12,8 +12,7 @@
    
    `sudo mv certbot-auto /usr/local/bin/certbot`
 
-
-## Install certbot plugin for Loopia
+### Install certbot plugin for Loopia
 * `sudo pip3 install certbot-loopia`
 
 
@@ -23,10 +22,10 @@
 
 * `sudo yum install python-pip`
 
-## Install certbot
+### Install certbot
 * `sudo yum install certbot`
  
-## Install certbot plugin for Loopia
+### Install certbot plugin for Loopia
 * `sudo pip install certbot-loopia`
 
 
