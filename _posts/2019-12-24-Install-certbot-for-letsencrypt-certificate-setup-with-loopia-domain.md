@@ -16,6 +16,21 @@
 ## Install certbot plugin for Loopia
 * `sudo pip3 install certbot-loopia`
 
+
+
+
+## For Centos 7
+
+* `sudo yum install python-pip`
+
+## Install certbot
+* `sudo yum install certbot`
+ 
+## Install certbot plugin for Loopia
+* `sudo pip install certbot-loopia`
+
+
+
 ## Documentation for running certbot plugin for Loopia
 https://github.com/runfalk/certbot-loopia
 
