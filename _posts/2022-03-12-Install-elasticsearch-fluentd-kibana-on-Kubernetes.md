@@ -1,0 +1,2 @@
+#Install Elasticsearch, Fluentd and Kibana on Kubernetes Cluster
+1. Denna guide har en utmärkt beskrivning på hur en Elasticsearch, Fluentd och Kibana installeras på Kubernetes kluster. https://kamrul.dev/deploy-efk-stack-with-helm-3-in-kubernetes/
